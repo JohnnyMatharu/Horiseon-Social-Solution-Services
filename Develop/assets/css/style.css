@@ -4,10 +4,12 @@
     padding: 0;
     margin: 0;
 }
+
 /* this defines the backround colour of the website */
 body {
     background-color: #d9dcd6;
 }
+
 /* header needs a unique bachround colour to distinguish from other sections*/
 .header {
     padding: 20px;
@@ -15,15 +17,18 @@ body {
     background-color: #2a607c;
     color: #ffffff;
 }
+
 /* inline-block will allow other navigation heading links to fit in the the same horizontal line along with main logo*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
+
 /* this will give a different colour to logo */
 .header h1 .logo-colour-mix {
     color: #d9dcd6;
 }
+
 /* all navigation headings will float on right to each other */
 .header nav {
     padding-top: 15px;
@@ -32,24 +37,29 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+
 /* unordered list style type*/
 .header nav ul {
     list-style-type: none;
 }
+
 /* list of navigation headings are arranged inline to each other and so to main company logo */
 .header ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
 /* anchored headings colour and style*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
+
 /* explantion font style*/
 p {
     font-size: 16px;
 }
+
 /*section with the image and style*/
 .hero {
     height: 800px;
@@ -59,22 +69,26 @@ p {
     background-size: cover;
     background-position: center;
 }
+
 /* move the picture to left in div*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
 /* move the picture to right in div*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
+
 /*parent div styling*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
 /*second parent div style*/
 .benefits {
     margin-right: 20px;
@@ -86,56 +100,28 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* first div style*/
-.benefit-lead {
+
+/* second parent div nested div features*/
+.benefit-features {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* second div style*/
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/* third div style*/
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/* first div heading style*/
-.benefit-lead h3 {
+
+/* nested div heading style*/
+.benefit-features h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* first div image, auto is used to center*/
-.benefit-lead img {
+/* nested div image fetures, auto is used to center*/
+.benefit-features img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
- /* first parent div first div style, main font is chosen and other fonts are given to follow cascading order*/
-.boost-search {
+ /* parent div nested div style, main font is chosen and other fonts are given to follow cascading order*/
+.content-features {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,51 +129,18 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* second div style*/
-.create-goodwill {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* third div style*/
-.social-media {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* first parent div first div picture style*/
-.boost-search img {
+
+/* nested div picture style*/
+.content-features img {
     max-height: 200px;
 }
-/*second picture style*/
-.create-goodwill img {
-    max-height: 200px;
-}
-/*third image style*/
-.social-media img {
-    max-height: 200px;
-}
-/*first parent div first div heading style*/
-.boost-search h2 {
+
+/*nested div heading style*/
+.content-features h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/*second heading style*/
-.create-goodwill h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/*third div heading style*/
-.social-media h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+
 /*footer style, clear command will keep any floating on either side clear*/
 .footer {
     padding: 30px;
@@ -195,6 +148,7 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
+
 /*footer heading style*/
 .footer h2 {
     font-size: 20px;
