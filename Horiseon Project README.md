@@ -15,9 +15,12 @@ https://github.com/JohnnyMatharu/Horiseon-Social-Solution-Services/blob/develop/
 
 
 ## Website
-link to git hub deployment and to repo
+Link to deployed site; https://johnnymatharu.github.io/Horiseon-Social-Solution-Services/
+Link to Git Hub where source files are: https://github.com/JohnnyMatharu/Horiseon-Social-Solution-Services
+
 
 ## Contribution
 Made by [Johnny (Indermeet Singh) Matharu]
+Student number: UTOR-VIRT-BO-FSF-PT-02-2021-U-B-MW
 
 ### ©️2019 Horiseon Social Solution Services, Inc.
