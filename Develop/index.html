@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
+    <!-- declaration-->
     <meta charset="UTF-8" />
+    <!--title of the website relating to its purpose-->
+    <title>Horiseon Web Solutions</title>
+    <!--link to external stylesheet-->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>website</title>
 </head>
-
+<!--Main site starts here--> 
 <body>
-    <div class="header">
-        <h1>Hori<span class="seo">seo</span>n</h1>
-        <div>
+    <!-- header contains navigation -->
+    <header class="header">
+        <!--logo has been designed using span, alphabets with different colours-->
+        <h1>Hori<span class="logo-colour-mix">seo</span>n</h1>
+        <nav>
+            <!-- unordered list of navigation begins-->
             <ul>
                 <li>
+                    <!-- navigation has been linked on same page using # using anchor element-->
                     <a href="#search-engine-optimization">Search Engine Optimization</a>
                 </li>
                 <li>
@@ -22,36 +28,52 @@
                     <a href="#social-media-marketing">Social Media Marketing</a>
                 </li>
             </ul>
-        </div>
-    </div>
-    <div class="hero"></div>
-    <div class="content">
-        <div class="search-engine-optimization">
+        </nav>
+    </header>
+    <!-- bigger picture has been inserted in this section-->
+    <section class="hero"></section>
+    <!-- div tags have been used because these sections need to float-->
+    <div class="content"> 
+        <!-- ID here is used to locate through navigation, this div is about search engine optimization-->
+    <div class="boost-search" id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" />
+            <!--div heading-->
             <h2>Search Engine Optimization</h2>
+            <!--div explanation-->
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
         </div>
-        <div id="online-reputation-management" class="online-reputation-management">
+        <!-- This div is about online reputation management -->
+        <div class="create-goodwill" id="online-reputation-management">
+            <!--div image-->
             <img src="./assets/images/online-reputation-management.jpg" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
         </div>
-        <div id="social-media-marketing" class="social-media-marketing">
+        <!--this is the third div about social media marketing-->
+        <div class="social-media" id="social-media-marketing">
+            <!-- this image is floating to left by use of float-->
             <img src="./assets/images/social-media-marketing.jpg" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </div>
-    </div>
+        <!--end of all 3 divs which were nested in parent div which kept all divs together-->
+        </div>
+
+    <!-- Another seperate parent div has been used which will float to right of other parent div that we finished before--> 
     <div class="benefits">
+        <!-- 3 divs are nested in this parent div -->
         <div class="benefit-lead">
+            <!-- first div heading-->
             <h3>Lead Generation</h3>
+            <!-- first div image-->
             <img src="./assets/images/lead-generation.png" />
+            <!--first div explanation-->
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
@@ -71,12 +93,15 @@
             </p>
         </div>
     </div>
-    <div class="footer">
+    <!--beginning of footer section which will have creator and copyright information, this footer can be copied at several other pages as well-->
+    <footer class="footer">
+        <!--creator-->
         <h2>Made with ❤️️ by Horiseon</h2>
+        <!--copyright information using & symbol for html-->
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
-    </div>
+    </footer>
 </body>
 
 </html>
